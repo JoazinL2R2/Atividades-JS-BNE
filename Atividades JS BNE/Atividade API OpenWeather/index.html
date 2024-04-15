@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API previsão do tempo</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<body>
+    <div id="container">
+        <div id="card">
+            <h1>Consultar Previsão do Tempo</h1>
+            <div id="input">
+                <label for="cidade">Cidade: </label>
+                <input type="text" id="cidade" placeholder="Digite o nome da cidade">
+                <button onclick="buscarPrevisaoTempo()">🔎</button>
+            </div>
+            <div id="resultado">
+                <h2>Previsão do Tempo:</h2>
+                <div id="previsao">
+                    <!-- Aqui será inserido o ícone de condições climáticas -->
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

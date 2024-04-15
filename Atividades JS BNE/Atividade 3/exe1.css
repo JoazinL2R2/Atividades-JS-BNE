@@ -1,0 +1,12 @@
+button{
+    border-radius: 20px;
+    border-width: 1px;
+}
+#container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.imagem{
+
+}
